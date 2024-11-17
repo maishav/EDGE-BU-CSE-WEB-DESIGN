@@ -1,0 +1,133 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+body{
+    background-color:bisque;
+}
+.abc{
+    width: 70%;
+    background-color:burlywood ;
+    margin-left:15% ;
+    padding: 20px;
+}
+.bcd{
+    background-color: antiquewhite;
+    margin-left: 0;
+    text-align: left;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    line-height:2;
+}
+.efg{
+    background-color: antiquewhite;
+    margin-left: 0;
+    text-align: left;
+    padding: 20px;
+}
+header{
+    background-color:wheat ;
+    color:brown;
+    text-align:center;
+    text-transform:uppercase;
+    padding-top:30px;
+    padding-bottom: 20px;
+    margin-bottom:30px;
+}
+nav{
+    background-color:aliceblue;
+    margin-top:20px;
+    margin-bottom:10px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    border-left:5px solid crimson;
+    border-right:5px solid crimson;
+}
+nav ul{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    padding:5px 0;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:crimson ;
+    font-weight:bold;
+    padding:8px 10px;
+    display:inline-block;
+    transition:background-color 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: #ffcc00;
+    color: #003366;
+    border-radius: 5px;
+}
+p{
+    line-height: 1.5;
+    text-align: justify;
+}
+.h3OD{
+    text-transform: capitalize;
+    margin: 20px 0;
+    border-bottom: 3px solid #15a148;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+th, td{
+    border:1px solid #000000;
+    padding: 15px;
+}
+table{
+    width:100%;
+}
+th{
+    background-color: #15a148;
+    color: white;
+}
+table tr:nth-child(odd){
+    background-color: #f0b169;
+}
+table tr:hover{
+    background-color: rgb(213, 146, 22);
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: #a14207;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.bf{
+    text-align: center;
+    border-bottom: 5px solid;
+    border-width: 20%;
+    border-color: #cd832f;
+    
+}
+.cv{
+    text-align: center;
+}
+.rr{
+    width: 40%;
+    background-color:rgb(163, 96, 9) ;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 40px;
+   
+}
+.tt{
+    background-color: #c44b00;
+}
